@@ -6,6 +6,9 @@ from math import sin, tan, cos, sqrt
 import tkinter.font as font
 
 
+root = Tk()
+root.title("Calculator")
+
 # key in box
 
 e = Entry(root, width=35, borderwidth=50,
@@ -229,7 +232,5 @@ button_divide.grid(row=5, column=4)
 
 # print
 
-root = Tk()
-root.title("Calculator")
 root.iconbitmap('calculator.ico')
 root.mainloop()
