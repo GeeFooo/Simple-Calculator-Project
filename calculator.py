@@ -8,6 +8,7 @@ import tkinter.font as font
 
 root = Tk()
 root.title("Calculator")
+root.iconbitmap('calculator.ico')
 
 # key in box
 
@@ -232,5 +233,4 @@ button_divide.grid(row=5, column=4)
 
 # print
 
-root.iconbitmap('calculator.ico')
 root.mainloop()
