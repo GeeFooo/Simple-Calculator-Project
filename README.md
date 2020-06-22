@@ -1,7 +1,7 @@
 # Simple-Calculator-Project
 Build a Simple Calculator | Project | Python
 
-I just build a simple calculator and add sin , tan , cos and square root operations.
+I just build a simple calculator using pytkinter and add sin , tan , cos and square root operations.
 
 For sin , tan , cos , you just need to input degree numbers and the program will convert to radians and do the calculation.
 
